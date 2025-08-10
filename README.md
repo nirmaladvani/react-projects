@@ -9,7 +9,7 @@ A curated collection of interactive mini apps built with React. Each component d
 
 ## 🚀 Live Demo
 
-🌐 Your site is live at: [nirmaladvani.github.io/react-projects](https://nirmaladvani.github.io/react-projects/)
+🌐 Demo is live at: [nirmaladvani.github.io/react-projects](https://nirmaladvani.github.io/react-projects/)
 
 Explore all mini apps in one place!
 
@@ -91,6 +91,4 @@ src/
 
 Made with ❤️ by [Nirmal Advani](https://github.com/nirmaladvani)
 
-```
-
-```
+---
