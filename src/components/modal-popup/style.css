@@ -1,0 +1,12 @@
+.modal-container {
+  position: absolute;
+  background-color: rgba(100, 100, 100, 0.5);
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  flex-direction: column;
+}

@@ -1,0 +1,37 @@
+import { useState } from 'react'
+import PropTypes from 'prop-types'
+
+import './style.css'
+
+export default function Tabs({ tabsContent, onChange }) {
+  const [currentTabIndex, setCurrentTabIndex] = useState(0)
+
+  function handleOnClick(getCurrentIndex) {
+    setCurrentTabIndex(getCurrentIndex)
+    onChange(getCurrentIndex)
+  }
+
+  return (
+    <div className='acc-wrapper' style={{ backgroundColor: '#42324D' }}>
+      <div className='heading'>
+        {tabsContent.map((tabItem, index) => (
+          <div
+            className={`tab-item ${currentTabIndex === index ? 'active' : ''}`}
+            onClick={() => handleOnClick(index)}
+            key={tabItem.label}
+          >
+            <span className='label'>{tabItem.label}</span>
+          </div>
+        ))}
+      </div>
+      <div className='content' style={{ color: 'red' }}>
+        {tabsContent[currentTabIndex] && tabsContent[currentTabIndex].content}
+      </div>
+    </div>
+  )
+}
+
+Tabs.propTypes = {
+  tabsContent: PropTypes.array.isRequired,
+  onChange: PropTypes.func.isRequired,
+}

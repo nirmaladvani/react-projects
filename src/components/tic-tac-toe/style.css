@@ -1,0 +1,31 @@
+.board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b5b66;
+  font-size: 90px;
+  background-color: aqua;
+  user-select: none;
+}
+
+.confetti {
+  z-index: 1000;
+  position: absolute;
+  /* left: 50%;
+  top: 20%; */
+  height: 70%;
+}
+
+.status {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
