@@ -48,22 +48,24 @@ export default function SearchAutoComplete() {
 
   return (
     <div className='acc-wrapper'>
-      <input
-        type='text'
-        placeholder='Search Users here...'
-        onChange={(event) => {
-          setChange(event.target.value)
-        }}
-      />
-      {change && change.length > 0 ? (
-        <ul>
-          {filteredUsers.map((user) => (
-            <li key={user.id}>
-              {user.firstName} {user.lastName}
-            </li>
-          ))}
-        </ul>
-      ) : null}
+      <div className='search-auto'>
+        <input
+          type='text'
+          placeholder='Search Users here...'
+          onChange={(event) => {
+            setChange(event.target.value)
+          }}
+        />
+        {change && change.length > 0 ? (
+          <ul>
+            {filteredUsers.map((user) => (
+              <li key={user.id}>
+                {user.firstName} {user.lastName}
+              </li>
+            ))}
+          </ul>
+        ) : null}
+      </div>
     </div>
   )
 }

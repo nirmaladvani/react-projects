@@ -15,6 +15,7 @@ import LoadMoreData from './components/load-more-data'
 import { useState, useEffect } from 'react'
 import PasswordValidator from './components/password-validator/password-validator'
 import Quiz from './components/quiz/quiz'
+import Todo from './components/todo/todo'
 
 function App() {
   const [scrollTop, setScrollTop] = useState(0)
@@ -44,7 +45,8 @@ function App() {
 
   return (
     <>
-      {/* <Quiz /> */}
+      <Todo />
+      <Quiz />
 
       <RandomColor />
       <Accordion />

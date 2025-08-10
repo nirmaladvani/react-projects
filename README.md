@@ -1,13 +1,96 @@
-<<<<<<< HEAD
-# React + Vite
+## 📘 Updated `README.md`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# 🧩 React Mini App Collection
 
-Currently, two official plugins are available:
+A curated collection of interactive mini apps built with React. Each component demonstrates a unique feature, UI pattern, or utility—from games and quizzes to modals and autocomplete search.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# react-projects
-Simple react projects
->>>>>>> a71397acd39a3f72290cbfab98d2bfd02542cc1d
+---
+
+## 🚀 Live Demo
+
+🌐 Your site is live at: [nirmaladvani.github.io/react-projects](https://nirmaladvani.github.io/react-projects/)
+
+Explore all mini apps in one place!
+
+---
+
+## 📦 Features
+
+This project includes the following mini apps:
+
+| Component                | Description                              |
+| ------------------------ | ---------------------------------------- |
+| ✅ Todo                  | Add, edit, and delete tasks.             |
+| 🧠 Quiz                  | Multiple-choice quiz with scoring        |
+| 🎨 Random Color          | Generate random background colors        |
+| 📂 Accordion             | Expand/collapse content sections         |
+| 🗂️ Custom Tabs           | Tabbed interface for switching views     |
+| 💡 Light/Dark Mode       | Toggle between light and dark themes     |
+| 📸 Image Slider          | Carousel of images from an API           |
+| 📥 Load More Data        | Infinite scroll-style data loading       |
+| 📷 QR Code Generator     | Generate QR codes from input text        |
+| 🧑‍💻 GitHub Profile Finder | Search GitHub users by username          |
+| 🔍 Search Autocomplete   | Live filtering of user data              |
+| ⭐ Star Rating           | Interactive star-based rating system     |
+| 🎮 Tic Tac Toe           | Classic 2-player game with win detection |
+| 🔐 Password Validator    | Check password strength and requirements |
+| 📍 Scroll to Top         | Smooth scroll back to top of page        |
+
+---
+
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/nirmaladvani/react-projects.git
+cd react-projects
+npm install
+npm start
+```
+````
+
+---
+
+## 🧪 Tech Stack
+
+- **React** (Functional Components + Hooks)
+- **CSS** (Custom styling per component)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── accordion/
+│   ├── custom-tabs/
+│   ├── github-profile-finder/
+│   ├── image-slider/
+│   ├── light-dark-mode/
+│   ├── load-more-data/
+│   ├── modal-popup/
+│   ├── password-validator/
+│   ├── qr-code-generator/
+│   ├── quiz/
+│   ├── random-color/
+│   ├── search-autocomplete/
+│   ├── star-rating/
+│   ├── tic-tac-toe/
+│   └── todo/
+├── App.jsx
+├── App.css
+└── main.jsx
+└── main.css
+
+```
+
+---
+
+## ✨ Author
+
+Made with ❤️ by [Nirmal Advani](https://github.com/nirmaladvani)
+
+```
+
+```
