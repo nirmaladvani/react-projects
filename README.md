@@ -1,3 +1,5 @@
+
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ## 📘 Updated `README.md`
 
 ````markdown
