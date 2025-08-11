@@ -53,12 +53,7 @@ npm start
 
 ---
 
-## 🧪 Tech Stack
 
-- **React** (Functional Components + Hooks)
-- **CSS** (Custom styling per component)
-
----
 
 ## 📁 Project Structure
 
@@ -86,6 +81,11 @@ src/
 └── main.css
 
 ```
+
+## 🧠 Built With
+- ⚛️ React
+- ⚡ Vite
+- 🎨 CSS
 
 ---
 
